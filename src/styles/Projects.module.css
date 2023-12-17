@@ -1,0 +1,69 @@
+.container {
+    width: 90%; /* Используем проценты для более гибкой ширины */
+    max-width: 800px; /* Устанавливаем максимальную ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер на странице */
+}
+
+.title {
+    font-size: 2.5vw; /* Используем vw для размера шрифта */
+    color: rgb(81, 81, 199);
+    font-weight: 600;
+    text-align: center; /* Центрируем заголовок */
+    margin-top: 3vw; /* Отступ сверху */
+    margin-bottom: 2vw; /* Отступ снизу */
+}
+
+.projectsContainer {
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.project {
+    width: 100%;
+    border-top: 2px solid rgb(81, 81, 199);
+    border-bottom: 2px solid rgb(81, 81, 199);
+    padding-top: 3vw; /* Используем vw для отступов */
+    padding-bottom: 3vw;
+}
+
+.projectName {
+    font-size: 2vw; /* Используем vw для размера шрифта */
+    color: rgb(81, 81, 199);
+    font-weight: 900;
+    text-align: center; /* Центрируем название проекта */
+    margin-bottom: 1vw; /* Отступ снизу */
+}
+
+.projectImage {
+    width: 80%; /* Используем проценты для размера изображения */
+    max-width: 400px; /* Максимальная ширина изображения */
+    margin: 1.5vw auto; /* Центрируем изображение с отступами */
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw; /* Используем vw для отступов между элементами */
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем описание проекта */
+}
+
+.infoField {
+    font-size: 1vw; /* Используем vw для размера шрифта информационных полей */
+    color: black;
+    text-align: center; /* Центрируем текст информационных полей */
+}
+
+@media screen and (max-width: 600px) {
+    .infoField {
+        font-size: 4vw; /* Используем vw для размера шрифта информационных полей */
+        color: black;
+        text-align: center; /* Центрируем текст информационных полей */
+    }
+}
